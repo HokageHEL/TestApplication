@@ -1,0 +1,10 @@
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\bin\Debug\netstandard2.0\TestApplication.Core.deps.json
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\bin\Debug\netstandard2.0\TestApplication.Core.dll
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\bin\Debug\netstandard2.0\TestApplication.Core.pdb
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.csproj.AssemblyReference.cache
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.AssemblyInfoInputs.cache
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.AssemblyInfo.cs
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.csproj.CoreCompileInputs.cache
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.dll
+C:\Users\justa\OneDrive\Рабочий стол\C#\TestApplication\TestApplication.Core\obj\Debug\netstandard2.0\TestApplication.Core.pdb

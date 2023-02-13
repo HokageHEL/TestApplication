@@ -1,0 +1,44 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="TestApplication.Views.CoinsMarketPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"    
+    xmlns:model="using:TestApplication.Core.Models"
+    mc:Ignorable="d">
+    
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource SmallLeftRightMargin}">
+        <Grid >
+            <controls:DataGrid x:ConnectionId='3'
+                x:Uid="DataTable"
+                AutoGenerateColumns="False"
+                GridLinesVisibility="Horizontal"
+                
+                                                                   >
+                <controls:DataGrid.Columns>
+                    <controls:DataGridTemplateColumn Header="image">
+                        <controls:DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate                                >
+                                <Image
+                                    Source="{Binding image}" 
+                                    Width="25" 
+                                    Height="25" 
+                                    VerticalAlignment="Center"/>                                
+                            </DataTemplate>
+                        </controls:DataGridTemplateColumn.CellTemplate>
+                    </controls:DataGridTemplateColumn>                    
+                    <controls:DataGridTextColumn Binding="{Binding symbol}" Header="symbol" />                    
+                    <controls:DataGridTextColumn Binding="{Binding name}" Header="name" />
+                    <controls:DataGridTextColumn Binding="{Binding current_price}" Header="current_price" />
+                    <controls:DataGridTextColumn Binding="{Binding market_cap}" Header="market_cap" />
+                    <controls:DataGridTextColumn Binding="{Binding total_volume}" Header="total_volume" />
+                    <controls:DataGridTextColumn Binding="{Binding high_24h}" Header="high_24h" />
+                    <controls:DataGridTextColumn Binding="{Binding price_change_percentage_24h}" Header="price_change_percentage_24h" />
+                    </controls:DataGrid.Columns>
+            </controls:DataGrid>
+        </Grid>
+    </Grid>
+</Page>
+
